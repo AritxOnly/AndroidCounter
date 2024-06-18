@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="AccentColors">
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Indigo</item>
+        <item>Cyan</item>
+        <item>Orange</item>
+        <item>Teal</item>
+    </string-array>
+</resources>

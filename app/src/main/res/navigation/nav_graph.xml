@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/basicCounter">
+
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.aritxonly.learning.Settings"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/basicCounter"
+        android:name="com.aritxonly.learning.BasicCounter"
+        android:label="fragment_basic_counter"
+        tools:layout="@layout/fragment_basic_counter" />
+</navigation>
